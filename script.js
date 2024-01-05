@@ -1,16 +1,6 @@
-let a, b, result;
-
-switch (true) {
-  case (a > 10):
-    console.log("a больше 10");
-    break;
-  case (a > 5):
-    console.log("a больше 5, но не больше 10");
-    break;
-  case (a > 2):
-    console.log("a больше 2, но не больше 5");
-    break;
-  default:
-    console.log("a меньше или равно 2");
-    break;
+function squareOfSum(a, b) {
+  return Math.pow(a + b, 2);
 }
+
+// Пример использования
+console.log(squareOfSum(3, 4)); // Выведет 49 (3² + 2 * 3 * 4 + 4² = 9 + 24 + 16 = 49)
